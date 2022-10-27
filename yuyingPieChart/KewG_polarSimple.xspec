@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec" xmlns:yxj="http://yxj5181"
+    stylesheet="KewG_polarSimple.xsl">
+    <x:scenario label="Scenario for testing function textAnchor">
+        <x:call function="yxj:textAnchor">
+            <x:param name="xPos" select="1"/>
+        </x:call>
+        <x:expect label="Not yet implemented" select="'start'"/>
+    </x:scenario>
+
+    <x:scenario label="Scenario for testing function lineDirection">
+        <x:call function="yxj:lineDirection">
+            <x:param name="xPos" select="1"/>
+        </x:call>
+        <x:expect label="Not yet implemented" select="10"/>
+    </x:scenario>
+</x:description>

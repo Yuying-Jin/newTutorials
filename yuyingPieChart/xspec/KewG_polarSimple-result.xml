@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.jenitennison.com/xslt/xspec"
+        xspec="file:/C:/Users/Jessie/Documents/Github/newTutorials/yuyingPieChart/KewG_polarSimple.xspec"
+        stylesheet="file:/C:/Users/Jessie/Documents/Github/newTutorials/yuyingPieChart/KewG_polarSimple.xsl"
+        date="2022-10-27T15:10:34.006-04:00">
+   <scenario id="xacb07caf-3b15-3f76-8ec1-2cf1bbdc589c"
+             xspec="file:/C:/Users/Jessie/Documents/Github/newTutorials/yuyingPieChart/KewG_polarSimple.xspec">
+      <label>Scenario for testing function textAnchor</label>
+      <input-wrap xmlns="">
+         <x:call xmlns:yxj="http://yxj5181"
+                 xmlns:x="http://www.jenitennison.com/xslt/xspec"
+                 function="yxj:textAnchor">
+            <x:param name="xPos" select="1"/>
+         </x:call>
+      </input-wrap>
+      <result select="'start'"/>
+      <test id="xacb07caf-3b15-3f76-8ec1-2cf1bbdc589c-expect1" successful="true">
+         <label>Not yet implemented</label>
+         <expect select="'start'"/>
+      </test>
+   </scenario>
+   <scenario id="x62da7be8-90ea-385d-9a68-d5c10b8502b4"
+             xspec="file:/C:/Users/Jessie/Documents/Github/newTutorials/yuyingPieChart/KewG_polarSimple.xspec">
+      <label>Scenario for testing function lineDirection</label>
+      <input-wrap xmlns="">
+         <x:call xmlns:yxj="http://yxj5181"
+                 xmlns:x="http://www.jenitennison.com/xslt/xspec"
+                 function="yxj:lineDirection">
+            <x:param name="xPos" select="1"/>
+         </x:call>
+      </input-wrap>
+      <result select="10"/>
+      <test id="x62da7be8-90ea-385d-9a68-d5c10b8502b4-expect1" successful="true">
+         <label>Not yet implemented</label>
+         <expect select="10"/>
+      </test>
+   </scenario>
+</report>
